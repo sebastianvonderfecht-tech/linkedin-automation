@@ -267,4 +267,12 @@ EXECUTION STEPS:
 
 [...continue through FREITAG]
 
+   IMPORTANT — pass BOTH `body` (plain text, as above) AND `htmlBody`. In the
+   htmlBody, convert newlines to <br> and render the Calendly URL as a proper
+   anchor whose visible text is the clean URL:
+   <a href="https://calendly.com/sebastian-vonderfecht/60min">https://calendly.com/sebastian-vonderfecht/60min</a>
+   This keeps the link clean when Sebastian copies the post into LinkedIn —
+   without htmlBody, Gmail rewrites the bare URL into a google.com/url tracking
+   link that shows a redirect-notice page.
+
 Use the Gmail tool to create the draft. If unavailable, output the 5 posts as plain text.
