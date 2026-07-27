@@ -293,7 +293,7 @@ ETF oder Immobilie — was würdest du nehmen?
 ---
 EXECUTION STEPS:
 
-1. Determine today's date. Calculate Monday–Friday dates of the upcoming week.
+1. Determine today's date (today is Monday — the task always runs on Monday). Calculate Monday–Friday dates of the CURRENT week (today through the coming Friday). Do NOT generate for next week.
 
 2. Select 5 topics from the pool above and assign each a type. Rules:
    - 3 topics → Reichweiten-Post, 2 topics → Conversion-Post (use the WEEKLY MIX heuristic).
@@ -320,13 +320,16 @@ EXECUTION STEPS:
 
 [...continue through FREITAG]
 
-   IMPORTANT — pass BOTH `body` (plain text, as above) AND `htmlBody`. In the
-   htmlBody, convert newlines to <br>. The Calendly URL appears ONLY in the 2
-   Conversion-Posts (Reichweiten-Posts have no link); render each one as a proper
-   anchor whose visible text is the clean URL:
-   <a href="https://calendly.com/sebastian-vonderfecht/60min">https://calendly.com/sebastian-vonderfecht/60min</a>
-   This keeps the link clean when Sebastian copies the post into LinkedIn —
-   without htmlBody, Gmail rewrites the bare URL into a google.com/url tracking
-   link that shows a redirect-notice page.
+   CRITICAL — you MUST pass BOTH parameters to the Gmail tool:
+   - `body`: plain text version (as above)
+   - `htmlBody`: HTML version where every newline becomes <br>, and the Calendly
+     URL (only in Conversion-Posts) is rendered as a clickable anchor with the
+     clean URL as visible text:
+     <a href="https://calendly.com/sebastian-vonderfecht/60min">https://calendly.com/sebastian-vonderfecht/60min</a>
+   If you omit htmlBody, Gmail rewrites the bare URL into a google.com/url
+   tracking link that shows a redirect-notice page — this MUST be avoided.
+
+   Do NOT include post-type labels like "(Reichweite)" or "(Conversion)" in the
+   email body. The section headers are plain: ═══ MONTAG – [date] ═══
 
 Use the Gmail tool to create the draft. If unavailable, output the 5 posts as plain text.
