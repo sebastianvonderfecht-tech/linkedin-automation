@@ -85,6 +85,11 @@ DER LESER IST NIE DER VERLIERER:
 - Nobody comments publicly "yes, I'm the procrastinator."
 - Tell negative examples as anonymous third parties; address the reader invitingly.
 
+KEINE NAMEN VON KUNDEN:
+- Never use first names for clients or prospects in Kundenstory posts (no "Julia", "Katharina", "Thomas", etc.).
+- Refer to them by role or situation only: "ein Angestellter", "eine Lehrerin", "ein Ehepaar", "mein Kunde", "eine Kundin".
+- This protects client privacy and avoids any impression that Sebastian is disclosing identifiable information.
+
 DISKUTIERBARE POSITION (Reichweiten-Posts):
 - Take a thesis people can disagree with — that creates debate.
 - Briefly illuminate the counter-side at the end instead of ignoring it.
