@@ -91,10 +91,11 @@ KEINE NAMEN VON KUNDEN:
 - This protects client privacy and avoids any impression that Sebastian is disclosing identifiable information.
 
 REALISTISCHE ZAHLEN (aktueller Markt 2025/2026):
-- Monatliche Zuzahlungen unter 100€ sind nicht mehr realistisch. Das war möglich als Zinsen bei 1–2% lagen.
+- Aktuelles Zinsniveau: 4–5% für Immobilienfinanzierungen (Stand 2025/2026). Verwende keine Zinssätze unter 3,5% als "aktuell" — das war das Niveau bis 2022.
+- Monatliche Zuzahlungen unter 150€ sind nicht mehr realistisch. Das war möglich als Zinsen bei 1–2% lagen.
 - Realistische Zuzahlungen heute: 150–400€/Monat je nach Objekt, Eigenkapital und Finanzierung.
 - Verwende keine konkreten Zuzahlungsbeträge unter 150€ — sie wirken unglaubwürdig und schaden der Credibility.
-- Wenn du Zahlen nennst: lieber eine realistische Spanne ("150–250€/Monat") als einen zu niedrigen Einzelwert.
+- Wenn du Zahlen nennst: lieber eine realistische Spanne ("200–300€/Monat") als einen zu niedrigen Einzelwert.
 
 DISKUTIERBARE POSITION (Reichweiten-Posts):
 - Take a thesis people can disagree with — that creates debate.
